@@ -1,12 +1,10 @@
-# AI-Agents-for-Medical-Diagnostics
-
-<img width="900" alt="image" src="https://github.com/user-attachments/assets/b7c87bf6-dfff-42fe-b8d1-9be9e6c7ce86">
+# Medical-Diagnosis (AI_agent)
 
 A Python project designed to create specialized LLM-based AI agents that analyze complex medical cases. The system integrates insights from various medical professionals to provide comprehensive assessments and personalized treatment recommendations, demonstrating the potential of AI in multidisciplinary medicine.
 
 ## Current Version Overview
 
-In the current version, we have implemented three AI agents using GPT-4o, each specializing in a different aspect of medical analysis. A medical report is passed to each of these agents, who then analyze the report simultaneously using threading, based on their specific area of expertise. Each agent provides recommendations and diagnoses from their perspective. After all AI agents complete their analyses, the results are combined and passed to a large language model, which summarizes the findings and identifies three potential health issues for the patient.
+In the current version, i have implemented three AI agents using GPT-4o, each specializing in a different aspect of medical analysis. A medical report is passed to each of these agents, who then analyze the report simultaneously using threading, based on their specific area of expertise. Each agent provides recommendations and diagnoses from their perspective. After all AI agents complete their analyses, the results are combined and passed to a large language model, which summarizes the findings and identifies three potential health issues for the patient.
 
 ### AI Agents
 
@@ -38,3 +36,4 @@ In future versions, the system could expand to include a broader range of AI age
 - **Results Folder**: Stores the outputs of the agentic system.
   
 **To be able to run the code, please insert your OpenAI API key within the `apikey.env` file.**
+
